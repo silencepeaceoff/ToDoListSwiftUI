@@ -11,7 +11,6 @@
 		358D0E4E2A5DA26400EE4749 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D0E4D2A5DA26400EE4749 /* MainView.swift */; };
 		358D0E502A5DA26A00EE4749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D0E4F2A5DA26A00EE4749 /* Assets.xcassets */; };
 		358D0E532A5DA26A00EE4749 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358D0E522A5DA26A00EE4749 /* Preview Assets.xcassets */; };
-		358D0E5A2A5DA3F500EE4749 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 358D0E592A5DA3F500EE4749 /* GoogleService-Info.plist */; };
 		358D0E5D2A5DA4B900EE4749 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 358D0E5C2A5DA4B900EE4749 /* FirebaseAuth */; };
 		358D0E5F2A5DA4B900EE4749 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 358D0E5E2A5DA4B900EE4749 /* FirebaseFirestore */; };
 		358D0E612A5DA4B900EE4749 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 358D0E602A5DA4B900EE4749 /* FirebaseFirestoreSwift */; };
@@ -33,6 +32,8 @@
 		358D0E852A5DADB000EE4749 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D0E842A5DADB000EE4749 /* HeaderView.swift */; };
 		358D0E872A5DB99800EE4749 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D0E862A5DB99800EE4749 /* TLButton.swift */; };
 		358D0E892A5DE1D600EE4749 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D0E882A5DE1D600EE4749 /* Extensions.swift */; };
+		358D0E8D2A5EFFA700EE4749 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 358D0E8C2A5EFFA700EE4749 /* GoogleService-Info.plist */; };
+		358D0E8F2A5F326400EE4749 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358D0E8E2A5F326400EE4749 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,6 @@
 		358D0E4D2A5DA26400EE4749 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		358D0E4F2A5DA26A00EE4749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		358D0E522A5DA26A00EE4749 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		358D0E592A5DA3F500EE4749 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		358D0E662A5DA86600EE4749 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		358D0E682A5DA88E00EE4749 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		358D0E6A2A5DA89E00EE4749 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -60,6 +60,8 @@
 		358D0E842A5DADB000EE4749 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		358D0E862A5DB99800EE4749 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		358D0E882A5DE1D600EE4749 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		358D0E8C2A5EFFA700EE4749 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		358D0E8E2A5F326400EE4749 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				358D0E4F2A5DA26A00EE4749 /* Assets.xcassets */,
-				358D0E592A5DA3F500EE4749 /* GoogleService-Info.plist */,
+				358D0E8C2A5EFFA700EE4749 /* GoogleService-Info.plist */,
 				358D0E4B2A5DA26400EE4749 /* ToDoListSwiftUIApp.swift */,
 				358D0E882A5DE1D600EE4749 /* Extensions.swift */,
+				358D0E8E2A5F326400EE4749 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,7 +233,8 @@
 			files = (
 				358D0E532A5DA26A00EE4749 /* Preview Assets.xcassets in Resources */,
 				358D0E502A5DA26A00EE4749 /* Assets.xcassets in Resources */,
-				358D0E5A2A5DA3F500EE4749 /* GoogleService-Info.plist in Resources */,
+				358D0E8F2A5F326400EE4749 /* Launch Screen.storyboard in Resources */,
+				358D0E8D2A5EFFA700EE4749 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

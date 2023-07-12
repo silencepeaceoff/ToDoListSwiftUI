@@ -15,7 +15,6 @@ struct LoginView: View {
       VStack {
         HeaderView(title: "To Do List", subtitle: "Get Things Done", angle: 15, background: .pink)
 
-
         Form {
           if !viewModel.errorMessage.isEmpty {
             Text(viewModel.errorMessage)

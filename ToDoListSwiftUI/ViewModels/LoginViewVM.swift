@@ -20,7 +20,7 @@ class LoginViewVM: ObservableObject {
   func login() {
     guard validate() else { return }
 
-    Auth.auth().signIn(withEmail: email, link: password)
+    Auth.auth().signIn(withEmail: email, password: password)
   }
 
   private func validate() -> Bool {
